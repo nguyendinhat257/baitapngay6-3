@@ -1,0 +1,551 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: Helvetica, Arial, sans-serif;
+}
+a {
+	text-decoration: none
+}
+ul {
+	list-style: none;
+}
+body {
+	background-color: #E9EBEE;
+}
+header {
+	background-color: #4267B2;
+	border-bottom: 1px solid rgba(41, 72, 125, 0.5);
+	height: 43px;
+	position: relative;
+	padding-left: 600px;
+}
+header label {
+	line-height: 43px;
+ 	font-size: 20px;
+ 	padding: 10px 10px;
+ 	color: rgb(27,43,74);
+ 	cursor: pointer;
+ 	margin-left: 20px;
+}
+header > label:hover {
+	color: #000000;
+}
+header > div {
+	position: absolute;
+}
+header > #no1 > div {
+	position: relative;
+}
+header > #no1 > div > div {
+	position: absolute;
+    top: 43px;
+    left: -190px;
+    width: 400px;
+    background-color: white;
+    box-shadow: 2px 2px 5px #6e6b6b;
+}
+header > #no1 > div > div::after {
+    content: " ";
+    position: absolute;
+    top: -14px;
+    left: 228px;
+    border: 7px solid white;
+    border-top: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-left: 7px solid transparent;
+    border-bottom: 7px solid white;
+}
+header > #no1 > div > div > ul > li > ul > li {
+	font-size: 12px;
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+
+}
+
+header > #no1 > div > div > ul > li > ul > li:first-child > a{
+	color:black;
+	margin-left: 5px;
+}
+header > #no1 > div > div > ul > li > ul > li:nth-child(2) {
+	margin-left: 180px;
+}
+header > #no1 > div > div > ul > li > ul > li:nth-child(2):hover > a, 
+header > #no1 > div > div > ul > li > ul > li:last-child:hover > a {
+	text-decoration: underline;
+} 
+header > #no1 > div > div > ul > li > ul > li:last-child {
+	margin-left: 5px;
+}
+header > #no1 > div > div > ul > li:nth-child(2) {
+	height: 30px;
+	background-color: #FFF9D7;
+	border-top: 1px solid #cfc8c8;
+	font-size: 12px;
+	line-height: 30px;
+	padding-left: 20px;
+	border-bottom: 1px solid orange;
+}
+header > #no1 > div > div > ul > li:nth-child(3) > div {
+	background-color: white;
+	width: 400px;
+	position: 
+}
+header > #no1 > div > div > ul > li:nth-child(3) {
+	font-size: 12px;
+	position: relative;
+	height: 65px;
+}
+header > #no1 > div > div > ul > li:nth-child(3) > img {
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;	
+	position: absolute;
+    left: 3px;
+    top: 9px;
+}
+header > #no1 > div > div > ul > li:nth-child(3) > a:first-child {
+	position: absolute;
+	top: 26px;
+    left: 63px;
+}
+header > #no1 > div > div > ul > li:nth-child(3) > a:nth-child(3) {
+	position: absolute;
+	top: 22px;
+    left: 270px;
+    padding: 4px;
+    background-color: #4267B2;
+    color: white;
+    border: 1px solid rgba(41, 70,228,0.5);
+    border-radius: 3px;
+
+}
+header > #no1 > div > div > ul > li:nth-child(3) > a:last-child {
+	position: absolute;
+	top: 22px;
+    left: 340px;
+    padding: 4px;
+    background-color: #E9EBEE;
+    color: gray;
+    border: 1px solid rgba(181, 181,181,0.5);
+    border-radius: 3px;
+    
+}
+header > #no2 > div {
+	position: relative;
+}
+header > #no2 > div > div {
+	position: absolute;
+    top: 0px;
+    left: -194px;
+    width: 400px;
+    height: 100px;
+    background-color: white;
+    box-shadow: 2px 2px 5px #6e6b6b;
+}
+header > #no2 > div > div::after {
+    content: " ";
+    position: absolute;
+    top: -14px;
+    left: 297px;
+    border: 7px solid white;
+    border-top: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-left: 7px solid transparent;
+    border-bottom: 7px solid white;
+}
+header > #no2 > div > div > ul > li > ul > li {
+	font-size: 12px;
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+}
+header > #no2 > div > div > ul > li:nth-child(1) {
+	height: 30px;
+	border-bottom: 1px solid #dcdcdc;
+}
+header > #no2 > div > div > ul > li > ul > li:first-child > a {
+	color: black;
+	margin-left: 3px; 
+}
+header > #no2 > div > div > ul > li > ul > li:nth-child(2) > a {
+	color: grey;
+}
+header > #no2 > div > div > ul > li > ul > li:nth-child(2):hover > a {
+	color: #433333;
+}
+header > #no2 > div > div > ul > li > ul > li:nth-child(2) {
+	margin-left: 3px;
+}
+header > #no2 > div > div > ul > li > ul > li:nth-child(3) {
+	margin-left: 100px;
+}
+
+header > #no2 > div > div > ul > li > ul > li:last-child {
+	margin-left: 4px;
+}
+header > #no2 > div > div > ul > li > ul > li:nth-child(3):hover,
+header > #no2 > div > div > ul > li > ul > li:last-child:hover {
+	text-decoration: underline;
+}
+
+header > #no2 > div > div > ul > li:nth-child(2) > ul > li {
+	margin-left: 0px; 
+}
+header > #no2 > div > div > ul > li:nth-child(2) > ul > li > #all {
+	display: inline-block;
+	width: 400px;
+	height: 70px;
+	margin-left: 0px;
+	text-decoration: none;
+}
+header > #no2 > div > div > ul > li:nth-child(2) > ul > li > #all:hover {
+	background-color: #dbdbdb;
+}
+
+header > #no2 > div > div > ul > li:nth-child(2) > ul > li > a > div {
+	position: relative;
+}
+header > #no2 > div > div > ul > li:nth-child(2) > ul > li > a > div > img{
+	position: absolute;
+	top: 7px;
+	left: 10px;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+header > #no2 > div > div > ul > li:nth-child(2) > ul > li > a > div > b{
+	position: absolute;
+	top: 5px;
+	left: 70px;
+}header > #no2 > div > div > ul > li:nth-child(2) > ul > li > a > div> b::after {
+    content: " ";
+    position: absolute;
+    top: 14px;
+    left: 60px;
+    border: 4px solid green;
+    border-radius: 50%
+}
+header > #no2 > div > div > ul > li:nth-child(2) > ul > li > a > div > #first{
+	position: absolute;
+	top: 20px;
+	left: 70px;
+	font-size: 11px;
+
+}
+header > #no2 > div > div > ul > li:nth-child(2) > ul > li > a > div > p{
+	position: absolute;
+	top: 5px;
+	left: 360px;
+	font-size: 11px;	
+}
+header > #no2 > div > div > ul > li:nth-child(2) > ul > li > a > div > div > i{
+	position: absolute;
+	top: 35px;
+	left: 377px;
+	font-size: 11px;
+	color: grey;
+}
+header > #no2 > div > div > ul > li:nth-child(2) > ul > li > a > div > div {
+	position: relative;
+}
+header > #no2 > div > div > ul > li:nth-child(2) > ul > li > a > div > div > p {
+	display: none;
+}
+header > #no2 > div > div > ul > li:nth-child(2) > ul > li > a > div > div > i:hover{
+	color:black;
+}
+header > #no2 > div > div > ul > li:nth-child(2) > ul > li > a > div > div > i:hover + p{
+	position: absolute;
+	top: -8px;
+	left: 293px;
+	display: block;
+	background-color: #282828;
+	color: white;
+	height: 35px;
+	line-height: 35px;
+	border-radius: 3px;
+}
+header > #no2 > div > div > ul > li:nth-child(2) > ul > li > a > div > div > p::after {
+	content: " ";
+	position: absolute;
+	top: 35px;
+	left: 82px;
+	border: 7px solid #282828;
+	border-top: 7px solid #282828;	
+	border-bottom: 7px solid transparent;
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+header > #no3 > div {
+	position: relative;
+}
+header > #no3 > div > div {
+	position: absolute;
+    top: 0px;
+    left: -190px;
+    width: 400px;
+    height: 100px;
+    background-color: white;
+    box-shadow: 2px 2px 5px #6e6b6b;
+}
+
+header > #no3 > div > div::after {
+    content: " ";
+    position: absolute;
+    top: -14px;
+    left: 356px;
+    border: 7px solid white;
+    border-top: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-left: 7px solid transparent;
+    border-bottom: 7px solid white;
+}
+header > #no3 > div > div > ul > li > ul > li {
+	float:left;
+	font-size: 12px;
+	height: 30px;
+	line-height: 30px;
+
+}
+header > #no3 > div > div > ul > li:nth-child(1) > ul > li:nth-child(1) {
+	margin-left: 5px; 
+}
+header > #no3 > div > div > ul > li:nth-child(1) > ul > li:nth-child(2) {
+	margin-left: 140px; 
+}
+header > #no3 > div > div > ul > li:nth-child(1) > ul > li:nth-child(3) {
+	margin-left: 10px; 
+}
+header > #no3 > div > div > ul > li:nth-child(1) > ul > li:nth-child(2):hover,
+header > #no3 > div > div > ul > li:nth-child(1) > ul > li:nth-child(3):hover {
+	text-decoration: underline;
+}
+header > #no3 > div > div > ul > li:nth-child(1) {
+	    height: 30px;
+	border-bottom: 1px solid #dcdcdc;
+}
+header > #no3 > div > div > ul > li:nth-child(2) > ul > li {
+	margin-left: 0px; 
+}
+header > #no3 > div > div > ul > li:nth-child(2) > ul > li > #all-tag-a {
+	display: inline-block;
+	width: 400px;
+	height: 70px;
+	margin-left: 0px;
+	text-decoration: none;
+	color: black;
+}
+header > #no3 > div > div > ul > li:nth-child(2) > ul > li > #all-tag-a:hover {
+	background-color: #dbdbdb;
+}
+
+header > #no3 > div > div > ul > li:nth-child(2) > ul > li > #all-tag-a:active {
+	color: black;
+}
+header > #no3 > div > div > ul > li:nth-child(2) > ul > li > a > div {
+	position: relative;
+}
+header > #no3 > div > div > ul > li:nth-child(2) > ul > li > a > div > img{
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+header > #no3 > div > div > ul > li:nth-child(2) > ul > li > a > div > b{
+	position: absolute;
+	top: 5px;
+	left: 70px;
+}
+header > #no3 > div > div > ul > li:nth-child(2) > ul > li > a > div > #first{
+	position: absolute;
+	top: 20px;
+	left: 70px;
+	font-size: 11px;
+
+}
+header > #no3 > div > div > ul > li:nth-child(2) > ul > li > a > div > p{
+    position: absolute;
+    top: 5px;
+    left: 128px;
+    font-size: 11px;	
+}
+header > #no3 > div > div > ul > li:nth-child(2) > ul > li > a > div > #time{
+    position: absolute;
+    top: 35px;
+    left: 95px;
+    font-size: 11px;	
+}
+header > #no3 > div > div > ul > li:nth-child(2) > ul > li > a > div > div > i{
+    position: absolute;
+    top: 43px;
+    left: 75px;
+    color: red;
+    font-size: 15px;
+}
+
+
+header > div {
+	display: none;
+}
+header > input {
+	display: none;
+}
+header input[id="add-friend"]:checked + #no1 {
+	display: block;
+}
+header input[id="mes"]:checked + #no2 {
+	display: block;
+}
+header input[id="bell"]:checked + #no3 {
+	display: block;
+}
+header input[id="add-friend"]:checked + #no1 + label,
+header input[id="add-friend"] + #no1 + label:active {
+	color: #fff;
+}
+header input[id="mes"]:checked + #no2 + label,
+header input[id="mes"] + #no2 + label:active {
+	color: #fff;
+}
+header input[id="bell"]:checked + #no3 + label,
+header input[id="bell"] + #no3 + label:active {
+	color: #fff;
+}
+
+
+
+
+
+body > label {
+	display: inline-block;
+	width: 100px;
+	height: 32px;
+	background-color: black;
+	border-radius: 25px;
+	margin-left: 1100px;
+	margin-top: 150px;
+	cursor: pointer;
+	position: relative;
+}
+body > label > input {
+	display: none;
+}
+body > label > span {
+	display: inline-block;
+	height: 28px;
+	width: 28px;
+	margin: 2px;
+	background-color: white;
+	border-radius: 50%;
+	position: absolute;
+
+}
+body > label > span::after {
+    content: "ON";
+    position: relative;
+    top: 5px;
+    left: 65px;
+    color: white;
+}
+body > label > span::before {
+    content: "OFF";
+    position: relative;
+    top: 5px;
+    right: 65px;
+    color: white;
+    display: none;
+}
+
+
+body > label > div > button {
+	position: absolute;
+	top: 100px;
+	left: -9000px;
+	transition: 0.5s;
+	display: block;
+	width: 100px;
+	height: 30px;
+	color: white;
+	background-color: rgba(108,106,106,0.9);
+	border-radius: 3px;
+	border: 1px solid rgba(108,106,106,0.5);
+	
+}
+body > label > div > button::before {
+	content: "CLOSE";
+	position: absolute;
+	top: 0px;
+	left: 8px;
+	font-size: 16px;
+	line-height: 28px;
+	height: 28px;
+}
+body > label > div > button > i {
+	position: absolute;
+	top: -0.05px;
+	left: 68px;
+	height: 29px;
+	line-height: 29px;
+	font-size: 29px;
+	background-color: rgba(108,106,106,0.9);
+}
+body > label > div > button:hover {
+	box-shadow: 3px 3px 5px rgba(108,106,106,0.7);
+}
+	
+body > label > input:checked + span {
+	right: 1px;
+}
+body > label > input:checked + span::after{
+	display: none;
+}
+body > label > input:checked + span::before{
+	display: inline-block;
+}
+
+body > label >  div > button:hover {
+	cursor: pointer;
+}
+body > label >  div > button:active,
+ body > label > div > button:active > i {
+	background-color: red;
+}
+body > label > input:checked + span + div > button {
+	left:0px;
+}
+
+
+
+
+
